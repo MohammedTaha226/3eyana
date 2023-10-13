@@ -1,0 +1,245 @@
+/*Big Size Screens*/
+@media (max-width: 1600px)
+{
+	.slider .imgSlider
+	{
+		max-width:900px;
+	}
+	
+	.slider .right
+	{
+		padding-top:100px;
+	}
+	
+	.slider .right .title 
+	{
+	    font-weight: 700;
+	    font-size:55px;
+	    line-height: 90px;
+	    max-width: 573px;
+   	}
+	
+}
+
+
+/*Big Size Screens*/
+@media (max-width: 1200px)
+{
+	.slider .imgSlider
+	{
+		max-width:700px;
+	}
+	
+	.slider .right
+	{
+		padding-top:55px;
+	}
+	
+	.slider .right .title 
+	{
+	    font-size: 45px;
+	    max-width: 460px;
+	}
+	
+	.plans .item .details .btns
+	{
+		width:250px;
+	}
+	
+	.plans .item .details .btns li a
+	{
+		width:100%;
+	}
+	
+	.plans .item .details .btns li:first-of-type:before
+	{
+		width:100%;
+	}
+	
+	.footer .footerDown .logoTaha
+	{
+		float:none;
+	}
+	
+	.stepsDiv .steps .step:not(:last-of-type)
+	{
+		margin-left:25px;
+	}
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+	
+	.header
+	{
+		padding:10px 0;
+	}
+	
+	.header .menuList
+	{
+		display:none;
+	}
+	
+	.openMenu
+	{
+		display:block;
+	}
+	
+	.header .logo
+	{
+		width:170px;
+		margin-top:0;
+	}
+	
+	.slider
+	{
+		padding-top:95px;
+	}
+	
+	.slider .right
+	{
+		float:none;
+		position:static;
+		text-align: center;
+		max-width:100%;
+	}
+	
+	.slider .right .title,
+	.slider .right .btnSlider
+	{
+		margin:0 auto;
+	}
+	
+	.slider .right .title
+	{
+		font-size:35px;
+    	margin-bottom:15px;
+    	line-height: 54px;
+	}
+
+	.slider .right .btnSlider
+	{
+		margin-bottom:45px;
+	}
+	
+	.slider .imgSlider
+	{
+		margin:0 auto;
+		float:none;
+		max-width:100%;
+	}
+	
+	.aboutUs .details
+	{
+		padding-top:30px;
+	}
+	
+	.aboutUs .details .title
+	{
+		text-align: center;
+	}
+	
+	.aboutUs .details .desc
+	{
+		margin:0 auto;
+		text-align: center
+	}
+	
+	.plans .item
+	{
+		margin-bottom:30px;
+	}
+	
+	.plans .item .details
+	{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	.modal-dialog
+	{
+		width:auto;
+		max-width:100%;
+	}
+	
+	.stepsDiv .steps .step
+	{
+		float:none;
+		margin:0 auto 30px;
+	}
+	
+	.stepsDiv .titleStyle
+	{
+		line-height:60px;
+	}
+	
+	.stepsDiv .steps .step:not(:last-of-type)
+	{
+		margin-left:0
+	}
+	
+	.mybreadcrumb
+	{
+		padding:160px 0 80px;
+	}
+	
+	.mybreadcrumb h5, .mybreadcrumb ul
+	{
+		text-align: center
+	}
+	
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+	.slider .right .title
+	{
+		font-size:30px;
+	}
+	
+	.aboutUs .details .title
+	{
+		font-size:40px;
+	}
+	
+	.plans .item .details
+	{
+		text-align: center
+	}
+	
+	.plans .item .details .btns
+	{
+		float:none;
+		margin:15px auto 0;
+	}
+	
+	.event-detials .event-details-card .card-body
+	{
+		padding-left:20px;
+		padding-right:20px;
+	}
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	.orderPage .formOrder
+	{
+		padding:20px 15px;
+	}
+}
